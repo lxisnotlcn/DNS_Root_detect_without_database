@@ -1,0 +1,23 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @b.root-servers.net properties. DS +dnssec +norecurse +tcp
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24633
+;; flags: qr aa; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; COOKIE: b02c3a31b9071760ea08339f6268076529603853d245461e (good)
+;; QUESTION SECTION:
+;properties.			IN	DS
+
+;; ANSWER SECTION:
+properties.		86400	IN	DS	24565 8 2 519C0CAE03F6F4A6679F85ED1376F04A6702406F0731734618F60889 5306E4F5
+properties.		86400	IN	RRSIG	DS 8 1 86400 20220508210000 20220425200000 47671 . dtzQLvzMPuuquIxpx39/bvKOmqhSbOfkDlEwr764RuZ8bKVU9j0D1sVq DBDOeE2HQDVywnIsp0eE9H9grRsvebIS639uhYUZf+jSkPq/SuNGpvX+ ppmS6nmgMcodMSYsAKBMhx2zc+J184BRtrrh10qQ1L4/HEVOXDtZVYA5 uKHfBN+DEA/P1KUoIEtmrRqVpelW8eVgk4rDEJhrKvzXdYzoXqIgt/S7 IWlP7oONOjqMfrhUpV14y1TRB+DjHPRjUHAgGg8dmv4iz8sDktevbOVz 6Dko77QXciEwU4uZkVlCRlJYuBxUfW9zxhrLUfqEa3pGmuoeheQGqQ7g 1OQ9Lg==
+
+;; Query time: 3192 msec
+;; SERVER: 2001:500:200::b#53(2001:500:200::b)
+;; WHEN: Tue Apr 26 07:53:25 PDT 2022
+;; MSG SIZE  rcvd: 402
+

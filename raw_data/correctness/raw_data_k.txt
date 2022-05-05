@@ -1,0 +1,36 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @k.root-servers.net man. NS +dnssec +norecurse +tcp
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60684
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 6, ADDITIONAL: 9
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+;; QUESTION SECTION:
+;man.				IN	NS
+
+;; AUTHORITY SECTION:
+man.			172800	IN	NS	anycast24.irondns.net.
+man.			172800	IN	NS	anycast10.irondns.net.
+man.			172800	IN	NS	anycast9.irondns.net.
+man.			172800	IN	NS	anycast23.irondns.net.
+man.			86400	IN	DS	1872 10 2 8E4B8FEF8F9E2D51C3B5B4189CFA8CD13D23D6B700516FC4AC632FC4 7EF7E7DE
+man.			86400	IN	RRSIG	DS 8 1 86400 20220509050000 20220426040000 47671 . kvcIavgciLAhrvqN0SVAel2BdFtO63R2Cg3FCD+LaAprJ9GBWKUGg45n g1farnd5AdsjKhgNg5JCYO2JXkIF+amWn3zq4SFufb+KePKe4wy280xn +IibicTQQ3DHtR/ipDt9gFNmwWBH0vxcQtCwfGM7e2qWALCIIbKhNjea NRw1siDGG3Dktg4z1Fes/e8WiLWQNy2ukQvGCT+aJ4qigZHMP9l0K9xZ DyQpExwz8ot46KkdP9Gj7JJxBJFmZXDNjXpzL+tEHPhOWkpFQClLL5Wd cCkuWExfyNGCYlmmbZPe6W0Yff0P2HOTP3s0hU7VfpN7RaVHNrFoPpe3 fbLA5A==
+
+;; ADDITIONAL SECTION:
+anycast24.irondns.net.	172800	IN	A	195.253.65.12
+anycast23.irondns.net.	172800	IN	A	195.253.65.11
+anycast10.irondns.net.	172800	IN	A	195.253.64.12
+anycast9.irondns.net.	172800	IN	A	195.253.64.11
+anycast24.irondns.net.	172800	IN	AAAA	2a01:5b0:5::c
+anycast23.irondns.net.	172800	IN	AAAA	2a01:5b0:5::b
+anycast10.irondns.net.	172800	IN	AAAA	2a01:5b0:4::c
+anycast9.irondns.net.	172800	IN	AAAA	2a01:5b0:4::b
+
+;; Query time: 344 msec
+;; SERVER: 193.0.14.129#53(193.0.14.129)
+;; WHEN: Tue Apr 26 07:53:06 PDT 2022
+;; MSG SIZE  rcvd: 649
+

@@ -1,0 +1,22 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @j.root-servers.net xn--bck1b9a5dre4c. DS +dnssec +norecurse +tcp
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10762
+;; flags: qr aa; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1472
+;; QUESTION SECTION:
+;xn--bck1b9a5dre4c.		IN	DS
+
+;; ANSWER SECTION:
+xn--bck1b9a5dre4c.	86400	IN	DS	38080 8 2 4665E6DF4755E09C113A30C7C64CC429BAB3726F3976DE2B160A2507 FD3E83B9
+xn--bck1b9a5dre4c.	86400	IN	RRSIG	DS 8 1 86400 20220509050000 20220426040000 47671 . e5p6RfugjgZOyRUqI+XSOy6PgOmjRAdVsssPuhb8f8W9i3j3caOsuS3g /YDaIUF3T9CbkdWIGMMwDJvZ6+qVPJJxfL6Ow2YZ727h/BJzC4q9Hkhq axc/3bSz28U4NwUAbprUA9TusBRoU5FvKvjoF6MkrTxfodpYu/lcOORY yVrkNNJxozq1Nb/VSbB7VJztR3WecqRD4lJa1qRof6kS420lTixM4yj8 b7NpMHBBYnzPz9E/WxXp4FxP6to+dwBMTRS5a0FDKCz57zLNQICSQ/vd exCpVX4KLVfH8fvroElWdq1Owi2KaqKq0+6ESmIIE5Vaybt/EV8HrV1/ bvrC5A==
+
+;; Query time: 28 msec
+;; SERVER: 192.58.128.30#53(192.58.128.30)
+;; WHEN: Tue Apr 26 07:53:06 PDT 2022
+;; MSG SIZE  rcvd: 381
+

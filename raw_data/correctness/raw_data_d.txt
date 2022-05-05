@@ -1,0 +1,62 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @d.root-servers.net . NS +dnssec +norecurse +tcp
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54016
+;; flags: qr aa; QUERY: 1, ANSWER: 14, AUTHORITY: 0, ADDITIONAL: 27
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1450
+;; QUESTION SECTION:
+;.				IN	NS
+
+;; ANSWER SECTION:
+.			518400	IN	NS	a.root-servers.net.
+.			518400	IN	NS	b.root-servers.net.
+.			518400	IN	NS	c.root-servers.net.
+.			518400	IN	NS	d.root-servers.net.
+.			518400	IN	NS	e.root-servers.net.
+.			518400	IN	NS	f.root-servers.net.
+.			518400	IN	NS	g.root-servers.net.
+.			518400	IN	NS	h.root-servers.net.
+.			518400	IN	NS	i.root-servers.net.
+.			518400	IN	NS	j.root-servers.net.
+.			518400	IN	NS	k.root-servers.net.
+.			518400	IN	NS	l.root-servers.net.
+.			518400	IN	NS	m.root-servers.net.
+.			518400	IN	RRSIG	NS 8 0 518400 20220509050000 20220426040000 47671 . KhqN5TPWrqPc8/UeuJGo+gxYecTPJLReFXjO564QfvwAwnkiVDS3KvSu skYsBDnM4Q05qoSFgyC45rI6hShTNHNNs3PNoMtLYrCX/rrB7uNI+Y+g 56pVzCmoqaO4rme+lAHAd7LnK4VaNtw39SUwPMfAasPfYWksNfDNtIXv +uF4g0GSMME+Y7dCaC6+ybA1lDo4ckmkq9ccK9ymA5qE90y0ip7cshVT muotXuuAa0CZuvcK3l5UirEwQbEwcscawiD8ju/oYVGC1RsjwNI49ivM 2o4KezJL4vfmRGBBvsxoCefxZCVGzENn+jgpn6cW1FyH9TRdCFda5Ze6 IB5PWw==
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	518400	IN	A	198.41.0.4
+b.root-servers.net.	518400	IN	A	199.9.14.201
+c.root-servers.net.	518400	IN	A	192.33.4.12
+d.root-servers.net.	518400	IN	A	199.7.91.13
+e.root-servers.net.	518400	IN	A	192.203.230.10
+f.root-servers.net.	518400	IN	A	192.5.5.241
+g.root-servers.net.	518400	IN	A	192.112.36.4
+h.root-servers.net.	518400	IN	A	198.97.190.53
+i.root-servers.net.	518400	IN	A	192.36.148.17
+j.root-servers.net.	518400	IN	A	192.58.128.30
+k.root-servers.net.	518400	IN	A	193.0.14.129
+l.root-servers.net.	518400	IN	A	199.7.83.42
+m.root-servers.net.	518400	IN	A	202.12.27.33
+a.root-servers.net.	518400	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	518400	IN	AAAA	2001:500:200::b
+c.root-servers.net.	518400	IN	AAAA	2001:500:2::c
+d.root-servers.net.	518400	IN	AAAA	2001:500:2d::d
+e.root-servers.net.	518400	IN	AAAA	2001:500:a8::e
+f.root-servers.net.	518400	IN	AAAA	2001:500:2f::f
+g.root-servers.net.	518400	IN	AAAA	2001:500:12::d0d
+h.root-servers.net.	518400	IN	AAAA	2001:500:1::53
+i.root-servers.net.	518400	IN	AAAA	2001:7fe::53
+j.root-servers.net.	518400	IN	AAAA	2001:503:c27::2:30
+k.root-servers.net.	518400	IN	AAAA	2001:7fd::1
+l.root-servers.net.	518400	IN	AAAA	2001:500:9f::42
+m.root-servers.net.	518400	IN	AAAA	2001:dc3::35
+
+;; Query time: 248 msec
+;; SERVER: 199.7.91.13#53(199.7.91.13)
+;; WHEN: Tue Apr 26 07:53:06 PDT 2022
+;; MSG SIZE  rcvd: 1097
+

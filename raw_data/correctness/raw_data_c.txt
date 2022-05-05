@@ -1,0 +1,24 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @c.root-servers.net . DNSKEY +dnssec +norecurse +tcp
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49408
+;; flags: qr aa; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; COOKIE: e0d9ff5b97f667bcc4893ace6268076a4d31ee8a22854baf (good)
+;; QUESTION SECTION:
+;.				IN	DNSKEY
+
+;; ANSWER SECTION:
+.			172800	IN	DNSKEY	257 3 8 AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexTBAvkMgJzkKTOiW1vkIbzxeF3 +/4RgWOq7HrxRixHlFlExOLAJr5emLvN7SWXgnLh4+B5xQlNVz8Og8kv ArMtNROxVQuCaSnIDdD5LKyWbRd2n9WGe2R8PzgCmr3EgVLrjyBxWezF 0jLHwVN8efS3rCj/EWgvIWgb9tarpVUDK/b58Da+sqqls3eNbuv7pr+e oZG+SrDK6nWeL3c6H5Apxz7LjVc1uTIdsIXxuOLYA4/ilBmSVIzuDWfd RUfhHdY6+cn8HFRm+2hM8AnXGXws9555KrUB5qihylGa8subX2Nn6UwN R1AkUTV74bU=
+.			172800	IN	DNSKEY	256 3 8 AwEAAak/ZU9wDNQD7XTAGTDkn32UR8I6auRDekbGky+yyWKdUHmwAJv9 0YHCUTib8aVBgNgbxkeeZGRx3W4+XhMZbfUr5fMwmD3u9P2yzJpbRtjG NM/XZvzGs9HHNymz3Bp851anHZfNy6pJud265/XMKzFlAY8sMJjum0hv x/DuCDELLyhsvdfOD9rHM93UXO0bcAjvI8tjZsGI+Pfp9KdxF9vS/sAz pFXKsldix+e6xv8rRS6WPg2LAooxF+eO5DgFSilYmnyCK4VPJ7ntjD/8 m0bs128ZT1eY3oXCbojDv59lLAgrdGSbcVxQF2KHoUHDmkOC5BzG/1xR tW4v/3y4/H8=
+.			172800	IN	RRSIG	DNSKEY 8 0 172800 20220512000000 20220421000000 20326 . lZAhK3o87DHbChCHNzSFNCoAWkgWWLgTubphLWsbbQhf7AG8o81Uvm/U W4A1rf/IuCcP3mW9dxqZE6h+FGDvU3U1hoWTxXCZ4rBZNv75HV6ViZi+ qOfiQW6ghQ0OViuKd/ej5KThhAcnLEqpoaKihx3kGn+PkIkiEfui5tKm BkkebjCK+edvNFPC98Gbhknb+6Or+FzSa5nhHNSJMHRHEkf3JUzXWjaC gKsZh/X15QintIL4j2ekNRLrbdcp91/cBG9O7KiFXjhJyRNzucNXGaA0 YgXUaXsVyjGdPLdKszWQMD42sXxehDe5hiRt0M5rLEoIu5tXg5h+muUW YY5Bhg==
+
+;; Query time: 56 msec
+;; SERVER: 2001:500:2::c#53(2001:500:2::c)
+;; WHEN: Tue Apr 26 07:53:30 PDT 2022
+;; MSG SIZE  rcvd: 892
+

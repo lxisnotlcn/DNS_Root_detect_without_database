@@ -1,0 +1,23 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @i.root-servers.net rehab. DS +dnssec +norecurse +tcp
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56387
+;; flags: qr aa; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+; COOKIE: 8feeebd3964a09bc01000000626807524b534a65418c5efd (good)
+;; QUESTION SECTION:
+;rehab.				IN	DS
+
+;; ANSWER SECTION:
+rehab.			86400	IN	DS	5731 8 2 D3BA72F70047888FAAE7F22DEAD5112C540FA6AAC533DCC55D9EE492 0DE4CCA9
+rehab.			86400	IN	RRSIG	DS 8 1 86400 20220509050000 20220426040000 47671 . ePAqfWxy9er0zKLgWKLYnlpg98zISX6IQaWISBl0g9PyjFrp/922ISCU 7F5drGZfyEJdFI97xaAj97DybjXkvkj9GBO1lg0ehlFGY5uGypOrI193 sljTlxKlNaz1Uxi6OT+mcQGTYg2ZRxjCmtYfShwIlIMJ4Qp/r0jZEMxz f21CjAA1htwhGTA5d9iHZQrHbRFYsA2L37LzXY7ppUYR9+Dr1KsSx0HP UV3UWUHDJcuXQplZWcTKHrYpeyJVUPDPORdssw3TkMACucm9Cjk67956 9G2M91zcneqIyPn1QGTcWsJijOS1K93Dci1G1MYR1MzQGllOeBsGcUkT bfGslw==
+
+;; Query time: 24 msec
+;; SERVER: 192.36.148.17#53(192.36.148.17)
+;; WHEN: Tue Apr 26 07:53:06 PDT 2022
+;; MSG SIZE  rcvd: 397
+

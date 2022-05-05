@@ -1,0 +1,129 @@
+"2001:250:fe01:130:6d27:185f:d566:c67e"
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @k.root-servers.net . SOA +norecurse -6
+; (1 server found)
+;; global options: +cmd
+;; connection timed out; no servers could be reached
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @k.root-servers.net . SOA +norecurse -6 +tcp
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9132
+;; flags: qr aa; QUERY: 1, ANSWER: 1, AUTHORITY: 13, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 0f764fd8658d4c30d48ef5dd6268072c98cc73691c20a5c6 (good)
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042502 1800 900 604800 86400
+
+;; AUTHORITY SECTION:
+.			518400	IN	NS	k.root-servers.net.
+.			518400	IN	NS	b.root-servers.net.
+.			518400	IN	NS	a.root-servers.net.
+.			518400	IN	NS	m.root-servers.net.
+.			518400	IN	NS	h.root-servers.net.
+.			518400	IN	NS	g.root-servers.net.
+.			518400	IN	NS	d.root-servers.net.
+.			518400	IN	NS	f.root-servers.net.
+.			518400	IN	NS	c.root-servers.net.
+.			518400	IN	NS	e.root-servers.net.
+.			518400	IN	NS	j.root-servers.net.
+.			518400	IN	NS	i.root-servers.net.
+.			518400	IN	NS	l.root-servers.net.
+
+;; Query time: 2332 msec
+;; SERVER: 2001:7fd::1#53(2001:7fd::1)
+;; WHEN: Tue Apr 26 07:52:29 PDT 2022
+;; MSG SIZE  rcvd: 324
+
+******
+traceroute to k.root-servers.net (2001:7fd::1), 30 hops max, 80 byte packets
+ 1  v6.nsfcnet.net (2001:250:fe01:130::1)  15.796 ms  15.679 ms  15.583 ms
+ 2  v6.nsfcnet.net (2001:250:fe01:0:192:168:40:82)  8.831 ms  8.724 ms  8.585 ms
+ 3  cernet2.net (2001:da8:ab:0:10::2)  8.477 ms  8.371 ms *
+ 4  * * *
+ 5  * * *
+ 6  2001:da8:2:119::1 (2001:da8:2:119::1)  13.724 ms  13.643 ms  13.969 ms
+ 7  * * *
+ 8  * * 2001:da8:2:7::1 (2001:da8:2:7::1)  77.139 ms
+ 9  2001:da8:2:3::2 (2001:da8:2:3::2)  226.745 ms  226.689 ms  226.663 ms
+10  2001:da8:2:1d::2 (2001:da8:2:1d::2)  226.706 ms  163.340 ms *
+11  2001:da8:2:108::2 (2001:da8:2:108::2)  114.640 ms *  114.591 ms
+12  * * *
+13  * * *
+14  * k.root-servers.net (2001:7fd::1)  70.987 ms  70.942 ms
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @2620:fe::fe . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45695
+;; flags: qr ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			39839	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 328 msec
+;; SERVER: 2620:fe::fe#53(2620:fe::fe)
+;; WHEN: Tue Apr 26 07:52:31 PDT 2022
+;; MSG SIZE  rcvd: 103
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @2402:4e00:: . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1364
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: a40371f1ebf104d5 (echoed)
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			56956	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 200 msec
+;; SERVER: 2402:4e00::#53(2402:4e00::)
+;; WHEN: Tue Apr 26 07:52:41 PDT 2022
+;; MSG SIZE  rcvd: 115
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @2001:4860:4860::8888 . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28727
+;; flags: qr ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			85468	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 88 msec
+;; SERVER: 2001:4860:4860::8888#53(2001:4860:4860::8888)
+;; WHEN: Tue Apr 26 07:52:46 PDT 2022
+;; MSG SIZE  rcvd: 103
+

@@ -1,0 +1,43 @@
+2022-04-26T07:50:54Z
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @j.root-servers.net +noedns CHAOS TXT hostname.bind +tcp +norecurse
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14840
+;; flags: qr; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;hostname.bind.			CH	TXT
+
+;; ANSWER SECTION:
+hostname.bind.		0	CH	TXT	"rootns-elpek3"
+
+;; Query time: 28 msec
+;; SERVER: 192.58.128.30#53(192.58.128.30)
+;; WHEN: Tue Apr 26 07:50:54 PDT 2022
+;; MSG SIZE  rcvd: 57
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @114.114.114.114 www.rssac047.errcom A +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7982
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;www.rssac047.errcom.		IN	A
+
+;; AUTHORITY SECTION:
+.			1793	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 4 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Apr 26 07:50:54 PDT 2022
+;; MSG SIZE  rcvd: 123
+

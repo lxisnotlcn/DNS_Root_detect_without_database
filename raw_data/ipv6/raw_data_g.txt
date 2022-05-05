@@ -1,0 +1,222 @@
+"2001:250:fe01:130:6d27:185f:d566:c67e"
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @g.root-servers.net . SOA +norecurse -6
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42042
+;; flags: qr aa; QUERY: 1, ANSWER: 1, AUTHORITY: 13, ADDITIONAL: 27
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 62da3142a43d1262e2f5e6026268071114ec71174cea0c14 (good)
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042502 1800 900 604800 86400
+
+;; AUTHORITY SECTION:
+.			518400	IN	NS	e.root-servers.net.
+.			518400	IN	NS	k.root-servers.net.
+.			518400	IN	NS	a.root-servers.net.
+.			518400	IN	NS	i.root-servers.net.
+.			518400	IN	NS	g.root-servers.net.
+.			518400	IN	NS	b.root-servers.net.
+.			518400	IN	NS	h.root-servers.net.
+.			518400	IN	NS	l.root-servers.net.
+.			518400	IN	NS	c.root-servers.net.
+.			518400	IN	NS	f.root-servers.net.
+.			518400	IN	NS	m.root-servers.net.
+.			518400	IN	NS	d.root-servers.net.
+.			518400	IN	NS	j.root-servers.net.
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	3600000	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	3600000	IN	AAAA	2001:500:200::b
+c.root-servers.net.	3600000	IN	AAAA	2001:500:2::c
+d.root-servers.net.	3600000	IN	AAAA	2001:500:2d::d
+e.root-servers.net.	3600000	IN	AAAA	2001:500:a8::e
+f.root-servers.net.	3600000	IN	AAAA	2001:500:2f::f
+g.root-servers.net.	3600000	IN	AAAA	2001:500:12::d0d
+h.root-servers.net.	3600000	IN	AAAA	2001:500:1::53
+i.root-servers.net.	3600000	IN	AAAA	2001:7fe::53
+j.root-servers.net.	3600000	IN	AAAA	2001:503:c27::2:30
+k.root-servers.net.	3600000	IN	AAAA	2001:7fd::1
+l.root-servers.net.	3600000	IN	AAAA	2001:500:9f::42
+m.root-servers.net.	3600000	IN	AAAA	2001:dc3::35
+a.root-servers.net.	3600000	IN	A	198.41.0.4
+b.root-servers.net.	3600000	IN	A	199.9.14.201
+c.root-servers.net.	3600000	IN	A	192.33.4.12
+d.root-servers.net.	3600000	IN	A	199.7.91.13
+e.root-servers.net.	3600000	IN	A	192.203.230.10
+f.root-servers.net.	3600000	IN	A	192.5.5.241
+g.root-servers.net.	3600000	IN	A	192.112.36.4
+h.root-servers.net.	3600000	IN	A	198.97.190.53
+i.root-servers.net.	3600000	IN	A	192.36.148.17
+j.root-servers.net.	3600000	IN	A	192.58.128.30
+k.root-servers.net.	3600000	IN	A	193.0.14.129
+l.root-servers.net.	3600000	IN	A	199.7.83.42
+m.root-servers.net.	3600000	IN	A	202.12.27.33
+
+;; Query time: 100 msec
+;; SERVER: 2001:500:12::d0d#53(2001:500:12::d0d)
+;; WHEN: Tue Apr 26 07:52:01 PDT 2022
+;; MSG SIZE  rcvd: 896
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @g.root-servers.net . SOA +norecurse -6 +tcp
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 509
+;; flags: qr aa; QUERY: 1, ANSWER: 1, AUTHORITY: 13, ADDITIONAL: 27
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: af146eb52cf31d3d72bf92cb62680711309ba98fd90f1ed9 (good)
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042502 1800 900 604800 86400
+
+;; AUTHORITY SECTION:
+.			518400	IN	NS	i.root-servers.net.
+.			518400	IN	NS	g.root-servers.net.
+.			518400	IN	NS	d.root-servers.net.
+.			518400	IN	NS	h.root-servers.net.
+.			518400	IN	NS	m.root-servers.net.
+.			518400	IN	NS	c.root-servers.net.
+.			518400	IN	NS	b.root-servers.net.
+.			518400	IN	NS	a.root-servers.net.
+.			518400	IN	NS	e.root-servers.net.
+.			518400	IN	NS	k.root-servers.net.
+.			518400	IN	NS	l.root-servers.net.
+.			518400	IN	NS	f.root-servers.net.
+.			518400	IN	NS	j.root-servers.net.
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	3600000	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	3600000	IN	AAAA	2001:500:200::b
+c.root-servers.net.	3600000	IN	AAAA	2001:500:2::c
+d.root-servers.net.	3600000	IN	AAAA	2001:500:2d::d
+e.root-servers.net.	3600000	IN	AAAA	2001:500:a8::e
+f.root-servers.net.	3600000	IN	AAAA	2001:500:2f::f
+g.root-servers.net.	3600000	IN	AAAA	2001:500:12::d0d
+h.root-servers.net.	3600000	IN	AAAA	2001:500:1::53
+i.root-servers.net.	3600000	IN	AAAA	2001:7fe::53
+j.root-servers.net.	3600000	IN	AAAA	2001:503:c27::2:30
+k.root-servers.net.	3600000	IN	AAAA	2001:7fd::1
+l.root-servers.net.	3600000	IN	AAAA	2001:500:9f::42
+m.root-servers.net.	3600000	IN	AAAA	2001:dc3::35
+a.root-servers.net.	3600000	IN	A	198.41.0.4
+b.root-servers.net.	3600000	IN	A	199.9.14.201
+c.root-servers.net.	3600000	IN	A	192.33.4.12
+d.root-servers.net.	3600000	IN	A	199.7.91.13
+e.root-servers.net.	3600000	IN	A	192.203.230.10
+f.root-servers.net.	3600000	IN	A	192.5.5.241
+g.root-servers.net.	3600000	IN	A	192.112.36.4
+h.root-servers.net.	3600000	IN	A	198.97.190.53
+i.root-servers.net.	3600000	IN	A	192.36.148.17
+j.root-servers.net.	3600000	IN	A	192.58.128.30
+k.root-servers.net.	3600000	IN	A	193.0.14.129
+l.root-servers.net.	3600000	IN	A	199.7.83.42
+m.root-servers.net.	3600000	IN	A	202.12.27.33
+
+;; Query time: 104 msec
+;; SERVER: 2001:500:12::d0d#53(2001:500:12::d0d)
+;; WHEN: Tue Apr 26 07:52:01 PDT 2022
+;; MSG SIZE  rcvd: 896
+
+******
+traceroute to g.root-servers.net (2001:500:12::d0d), 30 hops max, 80 byte packets
+ 1  v6.nsfcnet.net (2001:250:fe01:130::1)  69.134 ms  68.984 ms  68.879 ms
+ 2  v6.nsfcnet.net (2001:250:fe01:0:192:168:40:81)  10.671 ms  10.558 ms  10.454 ms
+ 3  cernet2.net (2001:da8:ab:0:10::2)  4.334 ms  4.219 ms  4.113 ms
+ 4  cernet2.net (2001:da8:ab:0:202:118:170:34)  10.008 ms  9.899 ms  9.791 ms
+ 5  2001:da8:257:0:101:4:8:4006 (2001:da8:257:0:101:4:8:4006)  6.869 ms  3.542 ms  6.629 ms
+ 6  2001:da8:2:119::1 (2001:da8:2:119::1)  6.522 ms  18.861 ms  18.751 ms
+ 7  2001:da8:2:5f::2 (2001:da8:2:5f::2)  28.361 ms  28.246 ms *
+ 8  2001:da8:2:7::1 (2001:da8:2:7::1)  38.889 ms * *
+ 9  2001:da8:2:701::2 (2001:da8:2:701::2)  39.529 ms *  39.726 ms
+10  2001:da8:257:0:101:4:1:2a (2001:da8:257:0:101:4:1:2a)  37.480 ms *  38.538 ms
+11  2001:da8:257:0:101:4:113:51 (2001:da8:257:0:101:4:113:51)  38.784 ms * *
+12  * * 2001:da8:257:0:101:4:113:15 (2001:da8:257:0:101:4:113:15)  64.471 ms
+13  2001:da8:257:0:101:4:45:11 (2001:da8:257:0:101:4:45:11)  77.718 ms * *
+14  * * *
+15  * * *
+16  2001:da8:257:0:101:4:7:21 (2001:da8:257:0:101:4:7:21)  91.791 ms  91.622 ms  91.716 ms
+17  * * *
+18  * * *
+19  * * *
+20  2001:500:12::d0d (2001:500:12::d0d)  186.241 ms *  90.030 ms
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @2620:fe::fe . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64374
+;; flags: qr ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			39849	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 2648 msec
+;; SERVER: 2620:fe::fe#53(2620:fe::fe)
+;; WHEN: Tue Apr 26 07:52:21 PDT 2022
+;; MSG SIZE  rcvd: 103
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @2402:4e00:: . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31151
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 2ed52988e3a4e0c7 (echoed)
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			56973	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 944 msec
+;; SERVER: 2402:4e00::#53(2402:4e00::)
+;; WHEN: Tue Apr 26 07:52:27 PDT 2022
+;; MSG SIZE  rcvd: 115
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @2001:4860:4860::8888 . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48030
+;; flags: qr ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			86084	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 96 msec
+;; SERVER: 2001:4860:4860::8888#53(2001:4860:4860::8888)
+;; WHEN: Tue Apr 26 07:52:37 PDT 2022
+;; MSG SIZE  rcvd: 103
+

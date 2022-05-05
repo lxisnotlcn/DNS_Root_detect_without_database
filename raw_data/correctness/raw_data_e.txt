@@ -1,0 +1,40 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @e.root-servers.net citic. NS +dnssec +norecurse +tcp
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46088
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 10, ADDITIONAL: 9
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+;; QUESTION SECTION:
+;citic.				IN	NS
+
+;; AUTHORITY SECTION:
+citic.			172800	IN	NS	a.zdnscloud.com.
+citic.			172800	IN	NS	b.zdnscloud.com.
+citic.			172800	IN	NS	c.zdnscloud.com.
+citic.			172800	IN	NS	d.zdnscloud.com.
+citic.			172800	IN	NS	f.zdnscloud.com.
+citic.			172800	IN	NS	g.zdnscloud.com.
+citic.			172800	IN	NS	i.zdnscloud.com.
+citic.			172800	IN	NS	j.zdnscloud.com.
+citic.			86400	IN	DS	12331 8 2 CDBFC9F67E7F97E1759BF1BCAA26C853BC5DDE881551E1FA4A633E8B D6B8C9BD
+citic.			86400	IN	RRSIG	DS 8 1 86400 20220509050000 20220426040000 47671 . HoXWH1KA+hAKU1fBri7GcClrzgoHYsAXz1D1HsXdVnZZJ6fac7NROZXO SZyW7myxibxdHfG+0CxIP5q1WvORx2fn8rrdk7OPh48+kSv2zUJlDMKG 0/ywqZak6OQlVZMgJ25uNYqI88lvWW7W+E3WEU4dXtHJstk/wBM7qKC7 6iw99p6eh/K/EuwnnZGWYRywmbEXl10xfXFGuZmM3tlUsmkXOFBTAByn 2ia3REzfLJrSPSz8Mx4ZSvXswf4+jyRP/BHBtVBrRCm0W+u17irsmuM/ N+vRHONwM/VtJTIgwC+wCpFv+QxebuQaHlLlYNrrDvZOXDpCNLluErk1 zOOj5g==
+
+;; ADDITIONAL SECTION:
+a.zdnscloud.com.	172800	IN	A	203.99.24.1
+b.zdnscloud.com.	172800	IN	A	203.99.25.1
+c.zdnscloud.com.	172800	IN	A	203.99.26.1
+d.zdnscloud.com.	172800	IN	A	203.99.27.1
+f.zdnscloud.com.	172800	IN	A	114.67.16.204
+g.zdnscloud.com.	172800	IN	A	42.62.2.16
+i.zdnscloud.com.	172800	IN	AAAA	2401:8d00:1::1
+j.zdnscloud.com.	172800	IN	AAAA	2401:8d00:2::1
+
+;; Query time: 240 msec
+;; SERVER: 192.203.230.10#53(192.203.230.10)
+;; WHEN: Tue Apr 26 07:53:06 PDT 2022
+;; MSG SIZE  rcvd: 662
+

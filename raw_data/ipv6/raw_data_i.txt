@@ -1,0 +1,161 @@
+;; connection timed out; no servers could be reached
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @i.root-servers.net . SOA +norecurse -6
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3309
+;; flags: qr aa; QUERY: 1, ANSWER: 1, AUTHORITY: 13, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 1cc5051e36cef440805138e662680718c9d6b230bb8d2559 (good)
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042502 1800 900 604800 86400
+
+;; AUTHORITY SECTION:
+.			518400	IN	NS	g.root-servers.net.
+.			518400	IN	NS	m.root-servers.net.
+.			518400	IN	NS	d.root-servers.net.
+.			518400	IN	NS	j.root-servers.net.
+.			518400	IN	NS	b.root-servers.net.
+.			518400	IN	NS	i.root-servers.net.
+.			518400	IN	NS	f.root-servers.net.
+.			518400	IN	NS	a.root-servers.net.
+.			518400	IN	NS	c.root-servers.net.
+.			518400	IN	NS	l.root-servers.net.
+.			518400	IN	NS	h.root-servers.net.
+.			518400	IN	NS	e.root-servers.net.
+.			518400	IN	NS	k.root-servers.net.
+
+;; Query time: 1084 msec
+;; SERVER: 2001:7fe::53#53(2001:7fe::53)
+;; WHEN: Tue Apr 26 07:52:18 PDT 2022
+;; MSG SIZE  rcvd: 324
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @i.root-servers.net . SOA +norecurse -6 +tcp
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6321
+;; flags: qr aa; QUERY: 1, ANSWER: 1, AUTHORITY: 13, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: bed2054492a2deb4f411de4b6268072c7f837641b24bf578 (good)
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042502 1800 900 604800 86400
+
+;; AUTHORITY SECTION:
+.			518400	IN	NS	i.root-servers.net.
+.			518400	IN	NS	b.root-servers.net.
+.			518400	IN	NS	m.root-servers.net.
+.			518400	IN	NS	f.root-servers.net.
+.			518400	IN	NS	c.root-servers.net.
+.			518400	IN	NS	g.root-servers.net.
+.			518400	IN	NS	h.root-servers.net.
+.			518400	IN	NS	d.root-servers.net.
+.			518400	IN	NS	k.root-servers.net.
+.			518400	IN	NS	l.root-servers.net.
+.			518400	IN	NS	e.root-servers.net.
+.			518400	IN	NS	a.root-servers.net.
+.			518400	IN	NS	j.root-servers.net.
+
+;; Query time: 5600 msec
+;; SERVER: 2001:7fe::53#53(2001:7fe::53)
+;; WHEN: Tue Apr 26 07:52:29 PDT 2022
+;; MSG SIZE  rcvd: 324
+
+******
+traceroute to i.root-servers.net (2001:7fe::53), 30 hops max, 80 byte packets
+ 1  v6.nsfcnet.net (2001:250:fe01:130::1)  4.643 ms  4.634 ms  4.805 ms
+ 2  v6.nsfcnet.net (2001:250:fe01:0:192:168:40:82)  4.804 ms  4.803 ms  4.801 ms
+ 3  * * *
+ 4  cernet2.net (2001:da8:ab:0:202:118:170:34)  9.908 ms  9.906 ms  8.335 ms
+ 5  2001:da8:257:0:101:4:8:4006 (2001:da8:257:0:101:4:8:4006)  9.903 ms  9.902 ms  9.901 ms
+ 6  2001:da8:2:119::1 (2001:da8:2:119::1)  9.967 ms  7.895 ms  7.333 ms
+ 7  2001:da8:2:5f::2 (2001:da8:2:5f::2)  40.403 ms * *
+ 8  * * 2001:da8:2:7::1 (2001:da8:2:7::1)  40.837 ms
+ 9  2001:da8:2:3::2 (2001:da8:2:3::2)  91.172 ms * *
+10  * * 2001:da8:2:1d::2 (2001:da8:2:1d::2)  233.454 ms
+11  2001:da8:2:108::2 (2001:da8:2:108::2)  233.222 ms  214.182 ms *
+12  2001:da8:257:0:101:4:3:59 (2001:da8:257:0:101:4:3:59)  99.611 ms * *
+13  * * *
+14  * i.root-servers.net (2001:7fe::53)  68.519 ms  65.863 ms
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @2620:fe::fe . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18495
+;; flags: qr ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			39839	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 308 msec
+;; SERVER: 2620:fe::fe#53(2620:fe::fe)
+;; WHEN: Tue Apr 26 07:52:31 PDT 2022
+;; MSG SIZE  rcvd: 103
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @2402:4e00:: . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54806
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: c4cbb89861b39acb (echoed)
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			56966	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 172 msec
+;; SERVER: 2402:4e00::#53(2402:4e00::)
+;; WHEN: Tue Apr 26 07:52:31 PDT 2022
+;; MSG SIZE  rcvd: 115
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @2001:4860:4860::8888 . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64575
+;; flags: qr ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			85478	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 104 msec
+;; SERVER: 2001:4860:4860::8888#53(2001:4860:4860::8888)
+;; WHEN: Tue Apr 26 07:52:36 PDT 2022
+;; MSG SIZE  rcvd: 103
+

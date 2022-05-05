@@ -1,0 +1,131 @@
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @b.root-servers.net . SOA +norecurse -4
+; (1 server found)
+;; global options: +cmd
+;; connection timed out; no servers could be reached
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @b.root-servers.net . SOA +norecurse -4 +tcp
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4753
+;; flags: qr aa; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 1312 msec
+;; SERVER: 199.9.14.201#53(199.9.14.201)
+;; WHEN: Tue Apr 26 07:51:21 PDT 2022
+;; MSG SIZE  rcvd: 103
+
+******
+traceroute to b.root-servers.net (199.9.14.201), 30 hops max, 53 byte packets
+ 1  _gateway (192.168.102.2)  0.305 ms  0.213 ms  0.183 ms
+ 2  10.0.3.0 (10.0.3.0)  6.922 ms  7.294 ms  7.266 ms
+ 3  192.168.82.1 (192.168.82.1)  4.675 ms  4.924 ms  4.899 ms
+ 4  * 10.1.0.2 (10.1.0.2)  4.847 ms *
+ 5  111.40.55.129 (111.40.55.129)  8.813 ms  8.784 ms  8.760 ms
+ 6  111.41.85.5 (111.41.85.5)  6.979 ms  5.713 ms  5.649 ms
+ 7  218.203.72.1 (218.203.72.1)  5.612 ms  7.190 ms  6.994 ms
+ 8  111.24.10.9 (111.24.10.9)  9.662 ms  9.534 ms  9.394 ms
+ 9  221.183.117.49 (221.183.117.49)  34.117 ms  33.999 ms  33.809 ms
+10  111.24.2.106 (111.24.2.106)  25.652 ms  25.547 ms  25.444 ms
+11  221.176.21.150 (221.176.21.150)  99.217 ms  99.033 ms  27.094 ms
+12  221.183.25.202 (221.183.25.202)  43.601 ms  43.496 ms  51.922 ms
+13  221.183.55.109 (221.183.55.109)  52.129 ms  52.021 ms  52.912 ms
+14  223.120.12.213 (223.120.12.213)  225.552 ms  225.346 ms  225.186 ms
+15  223.120.6.218 (223.120.6.218)  225.069 ms  224.774 ms  224.580 ms
+16  * te0-10-0-6-4.ccr41.lax05.atlas.cogentco.com (38.104.85.161)  277.642 ms  277.473 ms
+17  * be3359.ccr42.lax01.atlas.cogentco.com (154.54.3.69)  576.730 ms *
+18  * * *
+19  * be2930.ccr21.elp01.atlas.cogentco.com (154.54.42.78)  1145.162 ms *
+20  be2927.ccr41.iah01.atlas.cogentco.com (154.54.29.221)  609.337 ms * *
+21  be3569.ccr21.mia01.atlas.cogentco.com (154.54.82.242)  1195.930 ms  1195.722 ms  1195.581 ms
+22  be3400.ccr21.mia03.atlas.cogentco.com (154.54.47.18)  925.664 ms  929.990 ms  933.058 ms
+23  38.142.154.74 (38.142.154.74)  1179.683 ms *  1191.141 ms
+24  * 170.247.92.54 (170.247.92.54)  1031.761 ms *
+25  b.root-servers.net (199.9.14.201)  755.509 ms  757.094 ms  769.590 ms
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @9.9.9.9 . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 42210
+;; flags: qr ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; Query time: 116 msec
+;; SERVER: 9.9.9.9#53(9.9.9.9)
+;; WHEN: Tue Apr 26 07:51:43 PDT 2022
+;; MSG SIZE  rcvd: 17
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @119.29.29.29 . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60558
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: d983159555d81bc3 (echoed)
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			86088	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 52 msec
+;; SERVER: 119.29.29.29#53(119.29.29.29)
+;; WHEN: Tue Apr 26 07:51:43 PDT 2022
+;; MSG SIZE  rcvd: 115
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @8.8.8.8 . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49669
+;; flags: qr ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			84790	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 80 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Tue Apr 26 07:51:43 PDT 2022
+;; MSG SIZE  rcvd: 103
+

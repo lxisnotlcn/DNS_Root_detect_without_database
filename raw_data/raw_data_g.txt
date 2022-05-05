@@ -1,0 +1,46 @@
+2022-04-26T07:50:54Z
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @g.root-servers.net +noedns CHAOS TXT hostname.bind +tcp +norecurse
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18632
+;; flags: qr aa; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;hostname.bind.			CH	TXT
+
+;; ANSWER SECTION:
+hostname.bind.		0	CH	TXT	"groot-pac2-3"
+
+;; AUTHORITY SECTION:
+hostname.bind.		0	CH	NS	hostname.bind.
+
+;; Query time: 108 msec
+;; SERVER: 192.112.36.4#53(192.112.36.4)
+;; WHEN: Tue Apr 26 07:50:54 PDT 2022
+;; MSG SIZE  rcvd: 70
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @114.114.114.114 www.rssac047.errcom A +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 10170
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;www.rssac047.errcom.		IN	A
+
+;; AUTHORITY SECTION:
+.			1793	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 16 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Apr 26 07:50:54 PDT 2022
+;; MSG SIZE  rcvd: 123
+

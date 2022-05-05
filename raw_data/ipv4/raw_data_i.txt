@@ -1,0 +1,137 @@
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+218.203.64.50
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @i.root-servers.net . SOA +norecurse -4
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45853
+;; flags: qr aa; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 79d3eff9c3bbedce01000000626806d75608d818291aa1f0 (good)
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 32 msec
+;; SERVER: 192.36.148.17#53(192.36.148.17)
+;; WHEN: Tue Apr 26 07:51:04 PDT 2022
+;; MSG SIZE  rcvd: 131
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @i.root-servers.net . SOA +norecurse -4 +tcp
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55843
+;; flags: qr aa; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 7f716bb9de0c1cc201000000626806d8ddd200ac661417f5 (good)
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 32 msec
+;; SERVER: 192.36.148.17#53(192.36.148.17)
+;; WHEN: Tue Apr 26 07:51:04 PDT 2022
+;; MSG SIZE  rcvd: 131
+
+******
+traceroute to i.root-servers.net (192.36.148.17), 30 hops max, 53 byte packets
+ 1  _gateway (192.168.102.2)  0.337 ms  0.157 ms  0.137 ms
+ 2  10.0.3.0 (10.0.3.0)  4.895 ms  4.788 ms  4.683 ms
+ 3  192.168.82.1 (192.168.82.1)  17.571 ms  17.404 ms  16.933 ms
+ 4  10.1.0.2 (10.1.0.2)  3.974 ms *  16.586 ms
+ 5  111.40.55.129 (111.40.55.129)  16.731 ms  18.611 ms  22.973 ms
+ 6  111.41.85.5 (111.41.85.5)  21.991 ms  5.380 ms  6.424 ms
+ 7  * 218.203.72.1 (218.203.72.1)  7.493 ms  7.357 ms
+ 8  * * *
+ 9  221.183.42.29 (221.183.42.29)  19.999 ms  19.894 ms  19.780 ms
+10  221.183.39.226 (221.183.39.226)  14.062 ms  14.267 ms  14.154 ms
+11  211.137.46.26 (211.137.46.26)  17.274 ms  17.510 ms  22.891 ms
+12  221.180.172.53 (221.180.172.53)  25.055 ms  25.497 ms  28.180 ms
+13  221.180.172.18 (221.180.172.18)  22.490 ms  20.147 ms  21.425 ms
+14  i.root-servers.net (192.36.148.17)  24.748 ms  24.740 ms  24.739 ms
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @9.9.9.9 . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 9201
+;; flags: qr ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; Query time: 116 msec
+;; SERVER: 9.9.9.9#53(9.9.9.9)
+;; WHEN: Tue Apr 26 07:51:26 PDT 2022
+;; MSG SIZE  rcvd: 17
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @119.29.29.29 . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25731
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: c05e32985cc9b92b (echoed)
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			86094	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 52 msec
+;; SERVER: 119.29.29.29#53(119.29.29.29)
+;; WHEN: Tue Apr 26 07:51:26 PDT 2022
+;; MSG SIZE  rcvd: 115
+
+******
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @8.8.8.8 . SOA +norecurse
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5973
+;; flags: qr ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			85548	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042600 1800 900 604800 86400
+
+;; Query time: 88 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Tue Apr 26 07:51:27 PDT 2022
+;; MSG SIZE  rcvd: 103
+

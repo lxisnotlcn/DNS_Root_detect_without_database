@@ -1,0 +1,67 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> @h.root-servers.net . SOA +dnssec +norecurse +tcp
+; (2 servers found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62270
+;; flags: qr aa; QUERY: 1, ANSWER: 2, AUTHORITY: 14, ADDITIONAL: 27
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; COOKIE: 71b5e353a0795cc40839741962680765a5e857bcbdf58e61 (good)
+;; QUESTION SECTION:
+;.				IN	SOA
+
+;; ANSWER SECTION:
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022042502 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20220508210000 20220425200000 47671 . UdK+ld+7kRxyRa1bYLY7M4LHFCbDWEiTdkUdPOyFLkFlmskApb8RAf1Q NyecOd+OB3/hcFITdma/gV7XyhhJJyyEsRyQ14D6C5jlkIpIySflDecb M5UosDgLlztrCKtGvUG5O7Vpod9ym2px7lUCWXnli0jUlYW6KHFhh25R 6MoiOL30GKHNo+QxFR7jPd2Ny5NJY9M2/NtUzh2VH9BlbjOA3rxUX6Wq ecKidUMuXNBRxukRg2k4hwB70L/WPU8yq7Uy1S42c8P/Ghcl2pt5NiFF kezF4Vsf2qBcvCGd3/hwv4962CQhTkgU/iL5fNLDqjbpJnKOtHP/mzye mNVWQg==
+
+;; AUTHORITY SECTION:
+.			518400	IN	NS	a.root-servers.net.
+.			518400	IN	NS	f.root-servers.net.
+.			518400	IN	NS	k.root-servers.net.
+.			518400	IN	NS	h.root-servers.net.
+.			518400	IN	NS	e.root-servers.net.
+.			518400	IN	NS	j.root-servers.net.
+.			518400	IN	NS	l.root-servers.net.
+.			518400	IN	NS	g.root-servers.net.
+.			518400	IN	NS	b.root-servers.net.
+.			518400	IN	NS	c.root-servers.net.
+.			518400	IN	NS	i.root-servers.net.
+.			518400	IN	NS	d.root-servers.net.
+.			518400	IN	NS	m.root-servers.net.
+.			518400	IN	RRSIG	NS 8 0 518400 20220508210000 20220425200000 47671 . Wa43nT2oKoVNFzH1wlsQ2BGVkMII4GFfRw1Tu5WohDmkL8xvTZ2YrsqZ A9BJrMp/EISatgGIWJV4jPQgSOmP6rvA+9hlUwgHQm0FbamHKw+rmAo0 B6fA6dv+I08JmfcIX/sHNzY5/GqOCJhIIIShBLL2eUv2Qnb/onsk+ztR +5RwZthZCJAv8r2+ellwh3aTqIsHeMjImcNSpjLZ0t74gF7cOv1hpzs/ k9AYFWx/0Ljmo7b0Zn4ixH5Bt3Obs5Fn13SzldDuIxvhzJljYOWq92ld P7wyi8TcXxa9TxDbLGDb/LHyDuK0DDDHv1fhFXElz4Dfkp4ohKO7Rgg2 7jh9pg==
+
+;; ADDITIONAL SECTION:
+a.root-servers.net.	3600000	IN	AAAA	2001:503:ba3e::2:30
+b.root-servers.net.	3600000	IN	AAAA	2001:500:200::b
+c.root-servers.net.	3600000	IN	AAAA	2001:500:2::c
+d.root-servers.net.	3600000	IN	AAAA	2001:500:2d::d
+e.root-servers.net.	3600000	IN	AAAA	2001:500:a8::e
+f.root-servers.net.	3600000	IN	AAAA	2001:500:2f::f
+g.root-servers.net.	3600000	IN	AAAA	2001:500:12::d0d
+h.root-servers.net.	3600000	IN	AAAA	2001:500:1::53
+i.root-servers.net.	3600000	IN	AAAA	2001:7fe::53
+j.root-servers.net.	3600000	IN	AAAA	2001:503:c27::2:30
+k.root-servers.net.	3600000	IN	AAAA	2001:7fd::1
+l.root-servers.net.	3600000	IN	AAAA	2001:500:9f::42
+m.root-servers.net.	3600000	IN	AAAA	2001:dc3::35
+a.root-servers.net.	3600000	IN	A	198.41.0.4
+b.root-servers.net.	3600000	IN	A	199.9.14.201
+c.root-servers.net.	3600000	IN	A	192.33.4.12
+d.root-servers.net.	3600000	IN	A	199.7.91.13
+e.root-servers.net.	3600000	IN	A	192.203.230.10
+f.root-servers.net.	3600000	IN	A	192.5.5.241
+g.root-servers.net.	3600000	IN	A	192.112.36.4
+h.root-servers.net.	3600000	IN	A	198.97.190.53
+i.root-servers.net.	3600000	IN	A	192.36.148.17
+j.root-servers.net.	3600000	IN	A	192.58.128.30
+k.root-servers.net.	3600000	IN	A	193.0.14.129
+l.root-servers.net.	3600000	IN	A	199.7.83.42
+m.root-servers.net.	3600000	IN	A	202.12.27.33
+
+;; Query time: 924 msec
+;; SERVER: 2001:500:1::53#53(2001:500:1::53)
+;; WHEN: Tue Apr 26 07:53:25 PDT 2022
+;; MSG SIZE  rcvd: 1468
+
